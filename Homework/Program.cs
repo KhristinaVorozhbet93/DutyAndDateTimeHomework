@@ -15,7 +15,7 @@ string GetSummaOfDuty(double price)
     {
         summaOfDuty = (price - limitOfDuty) / 100 * percentOfDuty;
     }
-    return $"Размер пошлины равен: {summaOfDuty}";
+    return $"Размер пошлины равен: {Math.Floor(summaOfDuty)}";
 }
 
 //Задание 2
